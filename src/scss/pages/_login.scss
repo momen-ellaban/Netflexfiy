@@ -1,0 +1,27 @@
+.login {
+
+    height: 100vh;
+    position: relative;
+    background: black;
+    // padding: 10% 0;
+
+    // حنشيل البادنج ده عشان مش حتظبط فى كل الشاشات 
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+    .bg_login{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        background: linear-gradient(rgba($black,0.5),rgba($black,0.5)), url("../images/one_movies.jpg") center/cover no-repeat  ;
+     
+        filter: blur(3px);
+        
+
+    }
+}
